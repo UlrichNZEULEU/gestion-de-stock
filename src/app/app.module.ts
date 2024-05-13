@@ -12,7 +12,7 @@ import { PageLoginComponent } from './pages/page-login/page-login.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [
     provideClientHydration()
