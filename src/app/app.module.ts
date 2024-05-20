@@ -7,6 +7,9 @@ import { PageLoginComponent } from './pages/page-login/page-login.component';
 import { PageInscriptionComponent } from './pages/page-inscription/page-inscription.component';
 import { PageDashboardComponent } from './pages/page-dashboard/page-dashboard.component';
 import { PageStatistiquesComponent } from './pages/page-statistiques/page-statistiques.component';
+import { MenuComponent } from './composants/menu/menu.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -14,14 +17,17 @@ import { PageStatistiquesComponent } from './pages/page-statistiques/page-statis
     PageLoginComponent,
     PageInscriptionComponent,
     PageDashboardComponent,
-    PageStatistiquesComponent
+    PageStatistiquesComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatExpansionModule
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration(),
+    provideAnimationsAsync()
   ],
   bootstrap: [AppComponent]
 })

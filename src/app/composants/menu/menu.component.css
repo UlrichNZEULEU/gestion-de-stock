@@ -1,0 +1,10 @@
+.btn{
+    font-size: 8px;
+    font-family: 'Roboto', Courier, monospace;
+    color: blue;
+}
+
+list-group-item{
+    border-radius: 0;
+    font-size: 5px;
+}

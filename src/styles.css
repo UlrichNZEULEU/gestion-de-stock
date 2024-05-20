@@ -10,3 +10,6 @@ body{
 .min-height-80{
     min-height: 80px;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Courier New', Courier, monospace, "Helvetica Neue", sans-serif; }
+

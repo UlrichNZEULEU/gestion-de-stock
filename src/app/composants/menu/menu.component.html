@@ -1,0 +1,26 @@
+<mat-accordion>
+  <div *ngFor="let menu of menuProperties">
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>  
+          <button class="btn btn-block text-left" type="button">
+            <i class="{{menu.icon}}"></i>&nbsp;
+            {{menu.titre}}
+          </button>
+        </mat-panel-title>
+      </mat-expansion-panel-header>
+      <h5>
+        <div class="card">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"*ngFor="let sousMenu of menu.sousMenu">
+              <a href="javascript:void(0)" (click)="navigate(sousMenu.url)">
+                <i class=" {{sousMenu.icon}}"></i>&nbsp;
+                {{sousMenu.titre}}
+              </a>
+            </li>
+          </ul>
+        </div>
+      </h5>
+    </mat-expansion-panel>
+  </div>
+</mat-accordion>
