@@ -10,6 +10,7 @@ import { PageStatistiquesComponent } from './pages/page-statistiques/page-statis
 import { MenuComponent } from './composants/menu/menu.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { HeaderComponent } from './composants/header/header.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
     PageInscriptionComponent,
     PageDashboardComponent,
     PageStatistiquesComponent,
-    MenuComponent
+    MenuComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
