@@ -1,0 +1,7 @@
+.col-md-12.d-flex.justify-content-end {
+    margin-top: 1rem; /* Ajouter un peu d'espace entre le formulaire et les boutons */
+}
+
+.btn.mr-2 {
+    margin-right: 0.5rem; /* Ajouter un peu d'espace entre les boutons */
+}
