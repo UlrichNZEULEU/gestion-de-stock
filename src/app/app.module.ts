@@ -13,6 +13,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { HeaderComponent } from './composants/header/header.component';
 import { PageArticleComponent } from './pages/articles/page-article/page-article.component';
 import { DetailArticleComponent } from './composants/detail-article/detail-article.component';
+import { PaginationComponent } from './composants/pagination/pagination.component';
+import { BouttonActionComponent } from './composants/boutton-action/boutton-action.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { DetailArticleComponent } from './composants/detail-article/detail-artic
     MenuComponent,
     HeaderComponent,
     PageArticleComponent,
-    DetailArticleComponent
+    DetailArticleComponent,
+    PaginationComponent,
+    BouttonActionComponent
   ],
   imports: [
     BrowserModule,
