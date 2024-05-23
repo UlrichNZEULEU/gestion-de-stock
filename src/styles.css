@@ -10,6 +10,19 @@ body{
 .min-height-80{
     min-height: 80px;
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: 'Courier New', Courier, monospace, "Helvetica Neue", sans-serif; }
-
+html, body {
+     height: 100%; 
+}
+body {
+     margin: 0; font-family: 'Courier New', Courier, monospace, "Helvetica Neue", sans-serif;
+}
+.custom-border-right{
+    border-right: 2px solid #a7b7c7 !important;
+}
+.custom-border{
+    border: solid #a7b7c7;
+    border-radius: 5px;
+}
+.blue-color{
+    color: blue;
+}

@@ -11,6 +11,8 @@ import { MenuComponent } from './composants/menu/menu.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { HeaderComponent } from './composants/header/header.component';
+import { PageArticleComponent } from './pages/articles/page-article/page-article.component';
+import { DetailArticleComponent } from './composants/detail-article/detail-article.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { HeaderComponent } from './composants/header/header.component';
     PageDashboardComponent,
     PageStatistiquesComponent,
     MenuComponent,
-    HeaderComponent
+    HeaderComponent,
+    PageArticleComponent,
+    DetailArticleComponent
   ],
   imports: [
     BrowserModule,
