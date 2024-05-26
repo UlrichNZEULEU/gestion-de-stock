@@ -1,0 +1,7 @@
+.mat-expansion-panel{
+    max-height: 300px;
+    overflow-y: scroll;
+}
+.col-md-6 text-right {
+    text-align: end;
+}

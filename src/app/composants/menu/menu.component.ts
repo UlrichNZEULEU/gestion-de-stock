@@ -70,7 +70,7 @@ export class MenuComponent implements OnInit{
             id:'32',
             titre:'Commandes clients',
             icon:'fas fa-users',
-            url:''
+            url:'commandesclients'
           }
         ]
       },
@@ -90,7 +90,7 @@ export class MenuComponent implements OnInit{
             id:'42',
             titre:'Commandes fournisseurs',
             icon:'fas fa-truck',
-            url:''
+            url:'comandesfournisseurs'
           }
         ]
       },

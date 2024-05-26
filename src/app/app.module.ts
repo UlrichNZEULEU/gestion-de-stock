@@ -23,6 +23,9 @@ import { DetailCltFrsComponent } from './composants/detail-clt-frs/detail-clt-fr
 import { PageClientComponent } from './pages/client/page-client/page-client.component';
 import { PageFounisseurComponent } from './pages/fournisseur/page-founisseur/page-founisseur.component';
 import { NouveauCltFrsComponent } from './composants/nouveau-clt-frs/nouveau-clt-frs.component';
+import { DetailCmdCltFrsComponent } from './composants/detail-cmd-clt-frs/detail-cmd-clt-frs.component';
+import { DetailCmdComponent } from './composants/detail-cmd/detail-cmd.component';
+import { PageCmdCltFrsComponent } from './pages/page-cmd-clt-frs/page-cmd-clt-frs.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +47,10 @@ import { NouveauCltFrsComponent } from './composants/nouveau-clt-frs/nouveau-clt
     DetailCltFrsComponent,
     PageClientComponent,
     PageFounisseurComponent,
-    NouveauCltFrsComponent
+    NouveauCltFrsComponent,
+    DetailCmdCltFrsComponent,
+    DetailCmdComponent,
+    PageCmdCltFrsComponent
   ],
   imports: [
     BrowserModule,

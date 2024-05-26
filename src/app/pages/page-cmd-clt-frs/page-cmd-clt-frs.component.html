@@ -1,0 +1,61 @@
+<div class="col">
+    <div class="row m-3">
+        <div class="col-md-8">
+            <h1>Commande clients / fournisseurs</h1>
+        </div>
+        <div class="col-md-4">
+            <app-boutton-action></app-boutton-action>
+        </div>
+    </div>
+    <div class="row m-3">
+        <mat-accordion>
+
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    This is the expansion 1 title   
+                </mat-expansion-panel-header>
+                   <app-detail-cmd-clt-frs></app-detail-cmd-clt-frs>
+            </mat-expansion-panel>          
+        </mat-accordion>
+
+        <mat-accordion>
+
+                <div class="panel mt-3">
+                    
+                    <mat-expansion-panel>
+                       <mat-expansion-panel-header>
+                         This is the expansion 1 title
+                       </mat-expansion-panel-header>
+                           <app-detail-cmd></app-detail-cmd>
+                           <app-detail-cmd></app-detail-cmd>
+                           <app-detail-cmd></app-detail-cmd>
+                           <app-detail-cmd></app-detail-cmd>
+                           <app-detail-cmd></app-detail-cmd>
+                           <app-detail-cmd></app-detail-cmd>
+                           <app-detail-cmd></app-detail-cmd>
+                           <app-detail-cmd></app-detail-cmd>
+                           <app-detail-cmd></app-detail-cmd>
+                           <app-detail-cmd></app-detail-cmd>
+                           <app-detail-cmd></app-detail-cmd>
+                    </mat-expansion-panel>
+               </div> 
+               <div class="card-footer">
+                    <div class="row">
+                        <div class="col-md-6 text-left">
+                            <h5>12 articles commandes</h5>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <h5>Total commande: 139.25</h5>
+                        </div>
+                    </div>
+               </div> 
+                    
+        </mat-accordion>
+        
+    </div>
+    
+    <div class="row mb-3 text-center">
+        <app-pagination></app-pagination>
+    </div>
+    
+</div>
