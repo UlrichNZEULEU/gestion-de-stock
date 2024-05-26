@@ -62,13 +62,13 @@ export class MenuComponent implements OnInit{
         sousMenu:[
           {
             id:'31',
-            titre:'Commandes clients',
+            titre:'clients',
             icon:'fas fa-shopping-basket',
-            url:''
+            url:'clients'
           },
           {
             id:'32',
-            titre:'Mouvements de stocks',
+            titre:'Commandes clients',
             icon:'fas fa-users',
             url:''
           }

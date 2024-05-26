@@ -8,6 +8,7 @@ import { PageStatistiquesComponent } from './pages/page-statistiques/page-statis
 import { PageArticleComponent } from './pages/articles/page-article/page-article.component';
 import { NouvelArticleComponent } from './pages/articles/nouvel-article/nouvel-article.component';
 import { PageMvtstkComponent } from './pages/mvtstk/page-mvtstk/page-mvtstk.component';
+import { PageClientComponent } from './pages/client/page-client/page-client.component';
 
 const routes: Routes = [
   {
@@ -37,6 +38,10 @@ const routes: Routes = [
       {
         path: 'mvtstk',
         component: PageMvtstkComponent
+      },
+      {
+        path: 'clients',
+        component: PageClientComponent
       }
     ]
   }
