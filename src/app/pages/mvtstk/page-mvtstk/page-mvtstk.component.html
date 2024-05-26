@@ -1,0 +1,46 @@
+<div class="col">
+    <div class="row m-3">
+        <div class="col-md-8">
+            <h1>Mouvement du stock</h1>
+        </div>
+        <div class="col-md-4">
+            <app-boutton-action></app-boutton-action>
+        </div>
+    </div>
+    <div class="row m-3">
+        <mat-accordion>
+
+            <mat-expansion-panel>
+              <mat-expansion-panel-header>
+                This is the expansion 1 title   
+              </mat-expansion-panel-header>
+                  <app-details-mvt-stk-article></app-details-mvt-stk-article>
+            </mat-expansion-panel>          
+        </mat-accordion>
+
+        <mat-accordion>
+
+                <div class="panel mt-3">
+                    
+                    <mat-expansion-panel>
+                       <mat-expansion-panel-header>
+                         This is the expansion 1 title
+                       </mat-expansion-panel-header>
+                           <app-detail-mvt-stk></app-detail-mvt-stk>
+                           <app-detail-mvt-stk></app-detail-mvt-stk>
+                           <app-detail-mvt-stk></app-detail-mvt-stk>
+                           <app-detail-mvt-stk></app-detail-mvt-stk>
+                           <app-detail-mvt-stk></app-detail-mvt-stk>
+                           <app-detail-mvt-stk></app-detail-mvt-stk>
+                           <app-detail-mvt-stk></app-detail-mvt-stk>
+                    </mat-expansion-panel>
+               </div>  
+                    
+        </mat-accordion>
+    </div>
+    
+    <div class="row mb-3 text-center">
+        <app-pagination></app-pagination>
+    </div>
+    
+</div>

@@ -50,7 +50,7 @@ export class MenuComponent implements OnInit{
             id:'22',
             titre:'Mouvements de stocks',
             icon:'fab fa-stack-overflow',
-            url:''
+            url:'mvtstk'
           }
         ]
       },
