@@ -102,7 +102,7 @@ const routes: Routes = [
         component: PageProfilComponent
       },
       {
-        path: 'changerotdepasse',
+        path: 'changermotdepasse',
         component: ChangerMotDePasseComponent
       }
     ]
