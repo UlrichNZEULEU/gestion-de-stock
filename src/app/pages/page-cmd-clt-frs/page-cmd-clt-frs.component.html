@@ -4,7 +4,7 @@
             <h1>Commande clients / fournisseurs</h1>
         </div>
         <div class="col-md-4">
-            <app-boutton-action></app-boutton-action>
+            <app-boutton-action (clickEvent)="nouvelleCommande()"></app-boutton-action>
         </div>
     </div>
     <div class="row m-3">
@@ -44,7 +44,7 @@
                         <div class="col-md-6 text-left">
                             <h5>12 articles commandes</h5>
                         </div>
-                        <div class="col-md-6 text-right">
+                        <div class="col-md-6 d-flex justify-content-end">
                             <h5>Total commande: 139.25</h5>
                         </div>
                     </div>
