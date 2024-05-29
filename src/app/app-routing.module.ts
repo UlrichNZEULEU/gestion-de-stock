@@ -13,6 +13,7 @@ import { PageFounisseurComponent } from './pages/fournisseur/page-founisseur/pag
 import { NouveauCltFrsComponent } from './composants/nouveau-clt-frs/nouveau-clt-frs.component';
 import { PageCmdCltFrsComponent } from './pages/page-cmd-clt-frs/page-cmd-clt-frs.component';
 import { NouvelleCmdCltFrsComponent } from './composants/nouvelle-cmd-clt-frs/nouvelle-cmd-clt-frs.component';
+import { PageCategoriesComponent } from './pages/categories/page-categories/page-categories.component';
 
 const routes: Routes = [
   {
@@ -75,6 +76,14 @@ const routes: Routes = [
         path: 'nouvellecommandesfrs',
         component: NouvelleCmdCltFrsComponent
       },
+      {
+        path: 'categories',
+        component: PageCategoriesComponent
+      },
+      {
+        path: 'nouvellecategories',
+        component: NouvelleCmdCltFrsComponent
+      }
     ]
   }
 
