@@ -14,7 +14,7 @@ export class PageCategoriesComponent implements OnInit {
   }
 
   nouvelCategorie(): void {
-    this.router.navigate(['nouvelcategorie']);
+    this.router.navigate(['nouvellecategorie']);
   }
 
 }
