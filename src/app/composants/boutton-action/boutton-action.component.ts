@@ -1,4 +1,4 @@
-import { Component,EventEmitter, OnInit, Output } from '@angular/core';
+import { Component,EventEmitter, Input, OnInit, Output, input } from '@angular/core';
 
 @Component({
   selector: 'app-boutton-action',
@@ -6,18 +6,20 @@ import { Component,EventEmitter, OnInit, Output } from '@angular/core';
   styleUrl: './boutton-action.component.css'
 })
 export class BouttonActionComponent implements OnInit{
+  
+  @Input()
+  isNouveauVisible: boolean = true;
+  @Input()
+  isExporterVisible: boolean = true;
+  @Input()
+  isImporterVisible: boolean = true;
+
+  constructor(){}
 
   @Output()                                                 // j'envoie un evenement du fils vers le parent
   clickEvent = new EventEmitter();
 
-  constructor(){
-
-  }
-
-  ngOnInit():void{
-
-  }
-  
+  ngOnInit():void{}
 
   bouttonNouveauClick(): void {
     this.clickEvent.emit();

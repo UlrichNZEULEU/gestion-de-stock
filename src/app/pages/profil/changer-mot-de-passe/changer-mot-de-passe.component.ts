@@ -1,10 +1,19 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-changer-mot-de-passe',
   templateUrl: './changer-mot-de-passe.component.html',
   styleUrl: './changer-mot-de-passe.component.css'
 })
-export class ChangerMotDePasseComponent {
+export class ChangerMotDePasseComponent implements OnInit {
+
+  constructor( private router:Router){}
+  ngOnInit(): void {
+  }
+
+  cancel():void {
+    this.router.navigate(['profil']);
+  }
 
 }
